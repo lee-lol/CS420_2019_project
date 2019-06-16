@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jun 15 22:01:34 2019
+Created on Mon Jun 10 22:01:34 2019
 
-@author: Machenike
+@author: lee
 """
 from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
