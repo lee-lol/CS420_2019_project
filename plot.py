@@ -42,7 +42,7 @@ def plot3():
       
     a=np.loadtxt("t2.txt", dtype="float")
     plt.figure(figsize=(6, 4))
-    plt.plot(a[:,0], a[:,2]/2+0.1, color='c', linewidth=1.7, label='Alexnet')
+    plt.plot(a[:,0], a[:,2], color='c', linewidth=1.7, label='Alexnet')
     #plt.plot(a[:,0], a[:,3], color='c', linewidth=1.7, label='Alexnet')
     plt.grid(color='b', alpha=0.5, linestyle='dashed', linewidth=0.5)
     plt.xlabel('Iterations')
@@ -115,7 +115,7 @@ def plot7():
 def plot8():       
     a=np.loadtxt("t4.txt", dtype="float")
     plt.figure(figsize=(6, 4))
-    plt.plot(a[:,0], a[:,2]-0.22, color='c', linewidth=1.7, label='Alexnet')
+    plt.plot(a[:,0], a[:,2], color='c', linewidth=1.7, label='Alexnet')
     #plt.plot(a[:,0], a[:,3], color='c', linewidth=1.7, label='Alexnet')
     plt.grid(color='b', alpha=0.5, linestyle='dashed', linewidth=0.5)
     plt.xlabel('Iterations')
