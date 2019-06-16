@@ -1,1 +1,1 @@
-.\bin\caffe.exe train --solver=AlexNet_solver.prototxt 
+.\bin\caffe.exe train --solver=LeNet_solver.prototxt 

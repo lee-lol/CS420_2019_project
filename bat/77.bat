@@ -1,0 +1,1 @@
+.\bin\caffe.exe train --solver=AlexNet_3_solver.prototxt 
