@@ -21,6 +21,6 @@ display: 100
 
 max_iter: 1800000
 snapshot: 10000
-snapshot_prefix: "fer2013/models/resnet"
+snapshot_prefix: "./models/resnet"
 solver_mode: GPU
 

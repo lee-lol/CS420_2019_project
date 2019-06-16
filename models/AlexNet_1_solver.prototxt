@@ -10,5 +10,5 @@ max_iter: 100000
 momentum: 0.9
 weight_decay: 0.0005
 snapshot: 50000
-snapshot_prefix: "fer2013/models/AlexNet1"
+snapshot_prefix: "./models/AlexNet1"
 solver_mode: GPU
